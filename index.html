@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IPL 2026</title>
+
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">🏏 IPL 2026</h2>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#matches">Matches</a></li>
+                <li><a href="#guidelines">Guidelines</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+
+        <h1>Welcome to IPL 2026</h1>
+
+        <p>Experience the excitement of cricket!</p>
+
+        <a href="#matches" class="btn">View Matches</a>
+
+    </section>
+
+    <!-- Match Schedule -->
+    <section class="matches-section" id="matches">
+
+        <h2>IPL Match Schedule</h2>
+
+        <!-- Filter and View Buttons -->
+        <div class="controls">
+
+            <select id="teamFilter">
+                <option value="all">All Teams</option>
+                <option value="CSK">CSK</option>
+                <option value="RCB">RCB</option>
+                <option value="MI">MI</option>
+                <option value="KKR">KKR</option>
+            </select>
+
+            <button id="gridBtn">Grid View</button>
+
+            <button id="listBtn">List View</button>
+
+        </div>
+
+        <!-- Match Cards -->
+        <div class="match-container" id="matchContainer">
+
+            <div class="match-card" data-teams="CSK RCB">
+
+                <h3>CSK 🆚 RCB</h3>
+
+                <p>Chennai Super Kings vs Royal Challengers Bengaluru</p>
+
+                <p>📅 10 April 2026</p>
+
+                <p>📍 Chennai</p>
+
+            </div>
+
+            <div class="match-card" data-teams="MI KKR">
+
+                <h3>MI 🆚 KKR</h3>
+
+                <p>Mumbai Indians vs Kolkata Knight Riders</p>
+
+                <p>📅 12 April 2026</p>
+
+                <p>📍 Mumbai</p>
+
+            </div>
+
+            <div class="match-card" data-teams="RCB MI">
+
+                <h3>RCB 🆚 MI</h3>
+
+                <p>Royal Challengers Bengaluru vs Mumbai Indians</p>
+
+                <p>📅 15 April 2026</p>
+
+                <p>📍 Bengaluru</p>
+
+            </div>
+
+            <div class="match-card" data-teams="CSK KKR">
+
+                <h3>CSK 🆚 KKR</h3>
+
+                <p>Chennai Super Kings vs Kolkata Knight Riders</p>
+
+                <p>📅 18 April 2026</p>
+
+                <p>📍 Chennai</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- IPL Guidelines -->
+    <section class="guidelines" id="guidelines">
+
+        <h2>IPL Guidelines</h2>
+
+        <div class="guideline-container">
+
+            <div class="guideline-card">
+
+                <h3>🎟 Ticket Booking</h3>
+
+                <p>Book your tickets through authorized booking platforms.</p>
+
+            </div>
+
+            <div class="guideline-card">
+
+                <h3>🏟 Stadium Rules</h3>
+
+                <p>Follow stadium instructions and maintain discipline.</p>
+
+            </div>
+
+            <div class="guideline-card">
+
+                <h3>🛡 Safety Rules</h3>
+
+                <p>Carry valid tickets and follow security guidelines.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+
+        <p>© 2026 IPL Website | Designed by Student</p>
+
+    </footer>
+
+    <!-- JavaScript Connection -->
+    <script src="app.js"></script>
+
+</body>
+</html>
